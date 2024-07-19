@@ -6,6 +6,7 @@ url:                 http://heatforecast.github.io
 baseurl:             ''
 paginate:            5
 permalink:           pretty
+theme:               minima
 
 # About/contact
 author:
