@@ -13,8 +13,8 @@ said
 ## Tokyo 2020 Olympics
 
 For the Olympic Games in Tokyo 2021 (moved from 2020) we post-processed the weather
-forecasts from the European Centre for Medium-Range Weather Forecasts (ECMWF) to
-provide a more heat-related forecast and posted this daily on Twitter
+forecasts from the European Centre for Medium-Range Weather Forecasts ([ECMWF](https://ecmwf.int))
+to provide a more heat-related forecast and posted this daily on Twitter
 [@HeatForecast](https://twitter.com/HeatForecast). The meteograms presented
 the universal thermal climate index (UTCI) as a feels-like temperature more 
 relevant to the human physiology quantifying the heat stress a human would experience
@@ -28,9 +28,10 @@ For more information see
 
 - Klöwer, M, P Edouard, AM Niess, S Racinais, Y Pitsiladis, F Pappenberger and K Hollander, 2023. Forecasting feels-like temperatures to reduce heat illnesses during sport events, British Journal of Sports Medicine, [10.1136/bjsports-2022-106413](http://dx.doi.org/10.1136/bjsports-2022-106413)
 
+(If you cannot access this publication but you would like to sent me an email).
 For the Paris Olympics in 2024 we are resuming this project, hosted on
-[heatforecast.github.io](https://heatforecast.github.io). More background information
-in the following.
+[heatforecast.github.io](https://heatforecast.github.io)
+More background information in the following.
 
 ## Feels-like temperatures
 
