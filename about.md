@@ -10,6 +10,28 @@ said
 
 (are we doing heat prediction again?), given you are reading this, the answer is *yes*.
 
+## Tokyo 2020 Olympics
+
+For the Olympic Games in Tokyo 2021 (moved from 2020) we post-processed the weather
+forecasts from the European Centre for Medium-Range Weather Forecasts (ECMWF) to
+provide a more heat-related forecast and posted this daily on Twitter
+[@HeatForecast](https://twitter.com/HeatForecast). The meteograms presented
+the universal thermal climate index (UTCI) as a feels-like temperature more 
+relevant to the human physiology quantifying the heat stress a human would experience
+outside. The meteograms also presented the contribution to the feels-like
+temperature. How much hotter it would feel if exposed to sunlight, or due to humidity,
+or how much wind would reduce the heat stress. The meteograms looked like this
+
+![Example meteogram](images/tokyo_heatforecast.jpg)
+
+For more information see
+
+- Klöwer, M, P Edouard, AM Niess, S Racinais, Y Pitsiladis, F Pappenberger and K Hollander, 2023. Forecasting feels-like temperatures to reduce heat illnesses during sport events, British Journal of Sports Medicine, [10.1136/bjsports-2022-106413](http://dx.doi.org/10.1136/bjsports-2022-106413)
+
+For the Paris Olympics in 2024 we are resuming this project, hosted on
+[heatforecast.github.io](https://heatforecast.github.io). More background information
+in the following.
+
 ## Feels-like temperatures
 
 Outdoor activities in summer months, and generally in hotter regions of the world, humans
