@@ -1,6 +1,6 @@
 # Setup
-title:               Heat Forecast
-tagline:             'for Paris 2024 Olympics'
+title:               Heat forecast for Paris 2024 Olympics
+tagline:             ''
 description:         'A heat forecast for the Paris 2024 Olympics based on feels-like temperatures by ECMWF, run by Milan Klöwer.'
 url:                 http://heatforecast.github.io
 baseurl:             ''
