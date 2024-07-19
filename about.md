@@ -3,27 +3,47 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+[Karsten](https://www.medicalschool-hamburg.de/ueber-uns/team/team-fakultaet-medizin/karsten-hollander/)
+said
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+> machen wir eigentlich wieder Heat Prediction?
 
-There are currently two themes built on Poole:
+(are we doing heat prediction again?), given you are reading this, the answer is *yes*.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+## Feels-like temperatures
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Outdoor activities in summer months, and generally in hotter regions of the world, humans
+are exposed to heat. The heat stress on the human body, depending on acclimatisation
+and many other factors can cause dehydration, other heat illnesses and even death.
+Many people die every year in heat waves around the world. And with climate change it is
+getting worse, many regions of the world are predicted to become essentially
+uninhabitable due to a combination of unbearably air temperatures and humidities.
 
-## Setup
+The heat stress a human body experiences depends on more than just the air temperature
+which is widely presented in weather forecasts. Higher humidity levels limit the body's
+ability to sweat and therefore lose energy. Higher winds however increase evaporation
+and makes sweating more effective but also transports air away from the body.
+As long as the air temperature is below body temperature that is a heat transport
+cooling you down. Then there's also radiation: Even if air temperatures are below
+freezing, sunshine will increase the experienced temperatures in which case the
+feels-like temperature can be 10˚C or more above the air temperature.
 
-Some fun facts about the setup of this project include:
+## Weather forecasts
 
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
+Most weather forecasts present *air* temperatures, because that's physically easier to
+measure and predict. In some regions or seasons however, forecasts also communicate
+quantities like the "heat index" (including the effect of humidity), "windchill" 
+(including the effect of high winds). You may have heard about the
+wet-bulb globe temperature (WBGT), which combines these and also includes the
+effect of radiation. However, it essentially assumes the human to be a
+small black sphere, smaller than a tennis ball, that's wearing soaking wet clothes
+standing in the wind.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+We want to go one step further and always communicate as the feels-like temperature
+the "universal thermal climate index" (UTCI) which is based on the heat budget
+analysis of a (standardized) human to actually quantify a feels-like temperature
+as the equivalent air temperature that causes the same heat stress on the human body.
 
-Thanks for reading!
+## Why Olympics?
+
+
