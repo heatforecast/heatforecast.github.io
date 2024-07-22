@@ -8,7 +8,11 @@ said
 
 > machen wir eigentlich wieder Heat Prediction?
 
-(are we doing heat prediction again?), given you are reading this, the answer is *yes*.
+(are we doing heat prediction again?), [Milan](https://milankl.github.io) answered
+
+> Könnten wir
+
+(we could). Given you are reading this, the answer is *yes*.
 
 ## Tokyo 2020 Olympics
 
@@ -69,4 +73,6 @@ as the equivalent air temperature that causes the same heat stress on the human 
 
 ## Why Olympics?
 
+
+## Credits
 

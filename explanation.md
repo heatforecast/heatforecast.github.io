@@ -43,10 +43,20 @@ very sinusoidal on day 7 to 10 of the forecast.
 
 In the top panel cloud cover is visualised. Clouds are classified as
 low (dark grey), medium (grey), and high (light grey), depending on their height
-in the atmosphere. The thicker the visualised cloud the more of the sky
-is covered by that type of cloud. 
+in the atmosphere. Higher cloud covers (measured in fraction of sky) are visualised
+with thicker clouds here. Yellow suns (why yellow?) are added on every day at noon
+for orientation. We use the median of the forecast ensemble and do not visualise
+uncertainty.
 
 ## Precipitation
+
+Precipitation (or rain) is visualised in a worst-case (meaning higher precipitation)
+and best-case (lower precipitation) category. The worst-case is the 90th percentile
+of precipitation in the ensemble forecast meaning the amount of precipitation
+in the highest 5 out of 50 forecasts. The best-case is the 25th percentile.
+For every hour the amount of precipitation is visualised by more (=less rain) or
+less (=more rain) transparent rain drops. Their vertical position has no meaning
+and is chosen for aesthetic purposes only. 
 
 ## Feels-like temperature
 
