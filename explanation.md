@@ -54,14 +54,78 @@ Precipitation (or rain) is visualised in a worst-case (meaning higher precipitat
 and best-case (lower precipitation) category. The worst-case is the 90th percentile
 of precipitation in the ensemble forecast meaning the amount of precipitation
 in the highest 5 out of 50 forecasts. The best-case is the 25th percentile.
-For every hour the amount of precipitation is visualised by more (=less rain) or
-less (=more rain) transparent rain drops. Their vertical position has no meaning
+For every hour the amount of precipitation is visualised by more transparent (=less rain)
+or less transparent (=more rain) rain drops. Their vertical position has no meaning
 and is chosen for aesthetic purposes only. 
 
 ## Feels-like temperature
 
+The feels-like temperature is quantified as the Universal Thermal Climate Index
+([UTCI](https://utci.org/)) which incorporates the effects of windchill
+(lower experienced temperatures due to higher winds),
+humidity (higher humidity reduces the body's ability to lose heat through sweating),
+and radiation (sunshine during the day and longwave outgoing radiation into space).
+The feels-like temperature is calculated from these environmental variables
+(air temperature, wind speed, humidity, mean radiant temperature) and visualised
+as the daily ups and downs over the course of 10 days. The median across 50
+forecasts is the grey line in the centre, the colour shading shows the mininum,
+10th, 25th, 75th, 90th percentile and maximum across the ensemble. The colour
+of the shading is given by its temperature so that 25˚C always gets the same
+orange and that orange is always associated with 25˚C. The uncertainty visualised
+by the width of the colour shading is usually much lower in the first days
+of the forecast, meaning the forecast is more certain what wheather is going to
+take place, but typically increasing further into the future due to the chaotic
+nature of the atmosphere.
+
 ## Wind
 
-## Contribution to feels-like temperature
+Stronger winds are visualised with windsocks at the bottom of the feels-like
+temperature panel. The wind socks can be angled at 45˚, 67.5˚ or be 
+completely horizontal (90˚) denoting the strength of the expected wind (median),
+corresponding to 4, 5, and 6 and higher on the
+[Beaufort scale](https://en.wikipedia.org/wiki/Beaufort_scale).
+These are classified as "moderate breeze" (4 Beaufort), "fresh breeze" (5 Beaufort)
+and "strong breeze" (6 Beaufort) all the way to "Hurricane-force" (12 Beaufort).
+The transparency of the wind sock is (inversely) proportional to chance of wind speeds
+exceeding 4 Beaufort. If the 25th percentile of the ensemble distribution
+exceeds 4 Beaufort then the alpha value will be 0.75 meaning a 25% transparent
+wind sock as most (75%) of the forecasts agree that winds will be at least that strong.
+Weaker winds or the wind direction is not visualised.
 
+## Contribution to feels-like temperature: Humidity
 
+(To be added)
+
+## Contribution to feels-like temperature: Windchill
+
+Higher winds transport heat more efficiently away from the human body, consequently
+reducing the feels-like temperature in comparison to the air temperature. This
+is visualised in dark blue colour shading with negative temperatures in the bottom
+panel. If the colour shading reaches down to -10˚C then it would reduce an
+air temperature of 25˚C to feel like 15˚C. The transparency in the colour shading
+denotes its uncertainty, visualising minimum, 10th, 25th, 50th, 75th, 90th percentile,
+and the maximum of the ensemble distribution. If the darkest blue reaches down
+to -5˚C the windchill effect will be at least that, if the lighter blue shadings
+reach down to -10˚C it is also possible but not very certain for winds to be that strong
+to cause -10˚C lower feels-like temperatures due to windchill.
+The windchill effect is always negative.
+
+## Contribution to feels-like temperature: Radiation aka sunshine
+
+Sunny days (but also lesser degree cloudy days) feel warmer than the actual
+air temperature as shortwave solar radiation transports energy onto your skin,
+warming you up. (We avoid the term "radiation" in the meteogram so that no
+on thinks this is about a nuclear power plant in their vicinity, this is just
+about solar and terrestrial radiation due to their respective temperatures).
+Daytime feels-like temperatures in the sun can therefore often
+be 5-10˚C warmer than the actual air temperatures, turning a freezing but
+very sunny day into an enjoyable outdoor experience. Lower and thicker
+clouds can considerable reduce that effect. At night, a lot of longwave
+terrestrial radiation (and radiation from the temperature of a human body)
+escapes into space cooling you down compared to being indoors with a ceiling
+that would prevent that and radiate back. Hence the "sunshine" contribution
+to the feels-like temperature is often negative by 1-2˚C, depending on
+night-time cloud cover (which acts as a "ceiling").
+Uncertainty is visualised here in the same way as for the windchill
+effect described above. The colour shading for radiation is always orange to
+distinguish it from the windchill cooling.
