@@ -4,15 +4,9 @@ title: About
 ---
 
 [Karsten](https://www.medicalschool-hamburg.de/ueber-uns/team/team-fakultaet-medizin/karsten-hollander/)
-said
-
-> machen wir eigentlich wieder Heat Prediction?
-
-(are we doing heat prediction again?), [Milan](https://milankl.github.io) answered
-
-> Könnten wir
-
-(we could). Given you are reading this, the answer is *yes*.
+said `machen wir eigentlich wieder Heat Prediction?` (are we doing heat prediction again?),
+[Milan](https://milankl.github.io) answered `Könnten wir` (we could).
+Given you are reading this, the answer is *yes*.
 
 ## Tokyo 2020 Olympics
 
