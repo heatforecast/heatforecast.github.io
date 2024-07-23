@@ -5,7 +5,7 @@ title: Explanation
 
 The following explains the heatforecast meteogram in more detail
 
-![Heatforecast meteogram explained](images/explanation.jpg)
+![Heatforecast meteogram explained](https://heatforecast.github.io/images/explanation.jpg)
 
 ## Uncertainty
 
