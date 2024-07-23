@@ -29,7 +29,8 @@ For more information see
 (If you cannot access this publication but you would like to sent me an email).
 For the Paris Olympics in 2024 we are resuming this project, hosted on
 [heatforecast.github.io](https://heatforecast.github.io)
-More background information in the following.
+More background information in the following as well as in the
+[meteogram explanation](https://heatforecast.github.io/explanation).
 
 ## Feels-like temperatures
 
@@ -67,6 +68,25 @@ as the equivalent air temperature that causes the same heat stress on the human 
 
 ## Why Olympics?
 
+Heatwaves, and in many cases also shorter exposure to heat, can cause dehydration,
+other heat illnesses, heat strokes or even death. Many heatwaves cause excess mortality
+but it is difficult to quantify less severe impacts of heatwaves on public health.
+During the Olympics, and generally outdoor competitions with professional athletes,
+a large group of people is under regular medical observation with physicians also
+tracking less severe symptoms. Even though professional athletes are by definition
+not representative members of the public in terms of physiology and health,
+this does allow us to conduct studies on the impacts of heat on humans. See also
+[Hollander et al., 2021](https://doi.org/10.1111/sms.14029) and
+[Klöwer et al., 2023](http://dx.doi.org/10.1136/bjsports-2022-106413).
 
-## Credits
+## Why only Olympics?
 
+We would love to extend [heatforecast.github.io](https://heatforecast.github.io)
+more generally to various places at any time of the year. However, this
+heat forecast is currently an experimental project, showcasing possibilities to
+improve weather forecasts towards physiologically relevant information
+and intuitive visualisation. Given the public attention we decided to run this
+second pilot after Tokyo 2020 but we will likely stop it at some point after
+the Paralympic Games. If you are interested to run this heat forecast more
+operationally or to integrate it into other operational forecasts place
+reach out. With additional resources this might be possible.

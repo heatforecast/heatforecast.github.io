@@ -94,7 +94,12 @@ Weaker winds or the wind direction is not visualised.
 
 ## Contribution to feels-like temperature: Humidity
 
-(To be added)
+Human bodies can regulate their heat budget through sweating. However, the efficiency
+to lose energy by sweating and subsequent evaporation (which cools) of that moisture
+depends on the surrounding air to be able to take up that additional humidity.
+If the air is humid, sweating not as efficient to cool down the human body.
+Consequently, higher humidity levels typically increase the feels-like temperature
+compared to the air temperature by a few ˚C.
 
 ## Contribution to feels-like temperature: Windchill
 
