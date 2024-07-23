@@ -12,7 +12,10 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date_to_string }}
+      <a href="https://heatforecast.github.io/about">About</a> |
+      <a href="https://heatforecast.github.io/explanation">Explanation</a>
+    </span>
 
     {{ post.content }}
   </div>
