@@ -15,6 +15,7 @@ is a scientist at the European Centre for Medium-Range Weather Forecasts
 ([ECMWF](https://www.ecmwf.int)) who created the
 [ERA5-HEAT](https://cds.climate.copernicus.eu/cdsapp#!/dataset/derived-utci-historical)
 data set and provides ECMWF's data underpinning this heat forecast project.
+Claudia is partially funded by the [TRIGGER](https://project-trigger.eu/) project.
 
 
 [Karsten Hollander](https://www.medicalschool-hamburg.de/ueber-uns/team/team-fakultaet-medizin/karsten-hollander/)
