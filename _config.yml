@@ -1,6 +1,6 @@
 # Setup
 title:               Heat forecast for Paris 2024
-tagline:             'Paralympic Games'
+tagline:             'Olympic Games'
 description:         'A heat forecast for the Paris 2024 Olympics and Paralympics based on feels-like temperatures by ECMWF, run by Milan Klöwer.'
 url:                 http://heatforecast.github.io
 baseurl:             ''
